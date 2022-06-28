@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/style.css" />
+        <title>Weather the Weather</title>
+    </head>
 </head>
+
 <body>
-    
-</body>
-</html>
+
+    <body class="">
+
+
+        <div id="header">
+            <h1 class="center">Weather Report Dashboard</h1>
+        </div>
+        <!-- Forms ACTION should be tied to 3rd party api for weather,
+                POST will send to local storage, ID will be for stlying -->
+        <form action="" method="post" id="location-form">
+            <label for="WeatherFor">Welcome! Let's Start with a city Search:</label>
+            <input type="text" id="cityInput" name="WeatherFor"><br><br>
+            <input id="submitBtn" type="submit" value="Submit">
+        </form>
+
+        <div id="wrap">
+
+            <div>
+                <header>Search Results:</header>
+                <Section id="searchResult">
+
+
+
+                </section>
+
+
+                <ul>
+                    <li>Phoenix</li>
+                    <li>New York, NY</li>
+                    <li>96804</li>
+                </ul>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium eligendi aliquid doloremque? Alias quas deserunt aut quos, similique est fuga? A aperiam
+                    officiis alias dolor!
+                    Accusantium perferendis necessitatibus quod quia.
+                </p>
+
+                <p>
+                    Whenever you visit the page in the future, the previously selected
+                    location will be automatically remembered. No typing required.
+                    Location data is stored and accessed anonymously and cannot be
+                    connected to a specific person.
+                </p>
+
+
+                <div class="center">
+                    <h3>Share this page with Google Classroom</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="./assets/javascript.js"></script>
+    </body>
