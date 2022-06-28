@@ -1,0 +1,28 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  .event{
+    display: flex;
+    flex: end;
+    background-color: #06aed5;
+
+
+  }
+  #header{
+    background-color: darkblue;
+    font: white;
+    height: 80px;
+    padding: 10px;
+    
+  }
+  #searchResult{
+    margin: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: row;
+    background-color: rgb(66, 195, 228);
+    font-size: 35px;
+    font: black;
+  }
