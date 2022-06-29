@@ -9,7 +9,6 @@ var btn = document.getElementById("btn1")
 var currentDayEl = document.querySelector("#currentDay")
 var UlEl = $("#previousSearchList")
 
-
 currentDayEl.textContent = moment().format("MMM Do YY");
 // set this item to a local storage and create a list of recent searches
 function getApi(cityName) {
