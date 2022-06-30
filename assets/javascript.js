@@ -1,13 +1,13 @@
 var Click = $("button")
 var fetchButton = document.getElementById('submitBtn')
-var APIkey = "02ea95641c63b6b1a31a3a6fb6b3bfe0"
-let cityName = $("#cityInput").val();
 var searchResultEl = document.querySelector("#searchResult")
 console.log(searchResultEl)
 var recentSearch = JSON.parse(localStorage.getItem("recentSearch")) || []
 var btn = document.getElementById("btn1")
 var currentDayEl = document.querySelector("#currentDay")
 var UlEl = $("#previousSearchList")
+var APIkey = "c9ecfd644095a0e64da1f579c55a340b"
+let cityName = $("#cityInput").val();
 
 currentDayEl.textContent = moment().format("MMM Do YY");
 // set this item to a local storage and create a list of recent searches
