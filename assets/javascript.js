@@ -14,7 +14,7 @@ currentDayEl.textContent = moment().format("MMM Do YY");
 function getApi(cityName) {
 
     // console.log(cityName)
-    var cityInputEl = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=5&appid=${APIkey}`;
+    var cityInputEl = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=5&appid=${APIkey}`;
 
     fetch(cityInputEl)
         .then(function (response) {
